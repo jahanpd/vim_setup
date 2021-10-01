@@ -35,6 +35,10 @@ Plugin 'lervag/vimtex'
 "Get some extra color schemes
 Plugin 'rafi/awesome-vim-colorschemes'
 
+" outliner of markups - useful for seeing document structure and hyperlink
+" navigation
+Plugin 'vim-scripts/VOom'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
